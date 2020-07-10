@@ -16,12 +16,9 @@ repositories {
 dependencies {
     testImplementation 'io.rest-assured:rest-assured:4.3.0'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
-<<<<<<< HEAD
     testImplementation 'io.rest-assured:json-schema-validator:4.3.0'
 }
-=======
-  }
->>>>>>> 345cee311855fdbca08be573164c3d494bd5a6b7
+
 
 test {
     useJUnitPlatform()
